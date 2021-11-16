@@ -1,0 +1,44 @@
+---
+displayName: Selector
+description: 'Generates a Select node with options'
+labels: ['unagui', 'component', 'selector']
+---
+
+import { Selector } from './selector';
+
+### Component usage
+
+```tsx
+import { Selector } from '@hoomies/unagui.components.selector';
+
+<Selector options={options} selected={selectedValue} onChange={handleChange} />;
+```
+
+## Configure required props
+
+```tsx
+// Populate options with you own data
+const options = new Map([
+  // [<option.value>, <option.label>],
+  ['A', 'Option A'],
+  ['B', 'Option B'],
+  ['C', 'Option C'],
+]);
+
+// use React Hooks to save value
+const [selectedValue, setSelectedValue] = React.useState('');
+
+// override handle with custom actions
+const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  // update selected value with hooks
+  void setSelectedValue(event.target.value);
+};
+```
+
+### More props
+
+The selector is extended from the Chakra UI Select component.
+
+So you can use Select props from the official documentation.
+
+[Chakra UI - Select](https://chakra-ui.com/docs/form/select)
