@@ -9,5 +9,17 @@
  */
 
 {
+    "components/selector": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/selector"
+    },
+    "theme/wrapper": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "theme/wrapper"
+    },
     "$schema-version": "14.9.0"
 }

@@ -257,6 +257,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/css-reset@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@chakra-ui/css-reset@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Fcss-reset%2F-%2Fcss-reset-1.1.1.tgz"
+  peerDependencies:
+    "@emotion/react": ">=10.0.35"
+    react: ">=16.8.6"
+  checksum: 903b21e7cee80ea1bff5d48a1b57a06a7a9469a66214638e0a1bfbee4607210fe95fff836ef659ba11f2e4960233a659e71df5c57a2fa49cfe9c4f196e24a2c2
+  languageName: node
+  linkType: hard
+
 "@chakra-ui/descendant@npm:2.0.1":
   version: 2.0.1
   resolution: "@chakra-ui/descendant@npm:2.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Fdescendant%2F-%2Fdescendant-2.0.1.tgz"
@@ -952,7 +962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/cache@npm:11.5.0, @emotion/cache@npm:^11.5.0":
+"@emotion/cache@npm:11.5.0":
   version: 11.5.0
   resolution: "@emotion/cache@npm:11.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fcache%2F-%2Fcache-11.5.0.tgz"
   dependencies:
@@ -962,6 +972,19 @@ __metadata:
     "@emotion/weak-memoize": ^0.2.5
     stylis: ^4.0.10
   checksum: 8b3fac281ea201d617b594d79e4b38903ee538e9aa2117f3f99a4f952b3f93d92659a569b3b934efa31ae450b2ddd9ae435b6c77db70aa99ac8cae4cbd71450b
+  languageName: node
+  linkType: hard
+
+"@emotion/cache@npm:^11.6.0":
+  version: 11.6.0
+  resolution: "@emotion/cache@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fcache%2F-%2Fcache-11.6.0.tgz"
+  dependencies:
+    "@emotion/memoize": ^0.7.4
+    "@emotion/sheet": ^1.1.0
+    "@emotion/utils": ^1.0.0
+    "@emotion/weak-memoize": ^0.2.5
+    stylis: ^4.0.10
+  checksum: 3c72c50bfe06fd7ec2728988181173664183d2320305a01bb757caa6a9d485de25fccde1b173d810423d2ff88a178d5a72cc21db76b9e458311a8ce3044dd2a1
   languageName: node
   linkType: hard
 
@@ -981,12 +1004,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@emotion/is-prop-valid@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.1.0.tgz"
+"@emotion/is-prop-valid@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@emotion/is-prop-valid@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fis-prop-valid%2F-%2Fis-prop-valid-1.1.1.tgz"
   dependencies:
     "@emotion/memoize": ^0.7.4
-  checksum: 87351133ad80612138d9e34e79198635d36b238c7a5fddb4593798ecf8a2db6ac1d84e1e5e282a7fec04fb589e0cd4b1214ad080a9181671dcab2ce24ef22c1b
+  checksum: 5816696dae6ac79537a31fe95256e0c1f55651507204676dd9903542b102f727c16a68924e6634a89b0972f0d15b0803bb9d4e14bd0fb8a49da8a2e3956e6639
   languageName: node
   linkType: hard
 
@@ -1004,14 +1027,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:11.5.0":
-  version: 11.5.0
-  resolution: "@emotion/react@npm:11.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.5.0.tgz"
+"@emotion/react@npm:11.6.0":
+  version: 11.6.0
+  resolution: "@emotion/react@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.6.0.tgz"
   dependencies:
     "@babel/runtime": ^7.13.10
-    "@emotion/cache": ^11.5.0
+    "@emotion/cache": ^11.6.0
     "@emotion/serialize": ^1.0.2
-    "@emotion/sheet": ^1.0.3
+    "@emotion/sheet": ^1.1.0
     "@emotion/utils": ^1.0.0
     "@emotion/weak-memoize": ^0.2.5
     hoist-non-react-statics: ^3.3.1
@@ -1023,7 +1046,7 @@ __metadata:
       optional: true
     "@types/react":
       optional: true
-  checksum: 4188b664cc5b7142cf58323d78911cfdeef106d7b26987f8e4aceb51074e99a48a16cf6c3d1aa124462d2135a7b0d2b5d1bc2bbb6ac6167010f69607d822d51a
+  checksum: 4fb2d108dc32716d1f162026ac5fdbd0662e3b435a34fb324629d72bb6bff61b18ac8975b51457c16ffa41543bade5d07558566ab76420b3926fbb9159441232
   languageName: node
   linkType: hard
 
@@ -1064,13 +1087,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@emotion/styled@npm:11.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstyled%2F-%2Fstyled-11.3.0.tgz"
+"@emotion/sheet@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@emotion/sheet@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fsheet%2F-%2Fsheet-1.1.0.tgz"
+  checksum: a4b74e16a8fea1157413efe4904f5f679d724323cb605d66d20a0b98744422f5d411fca927ceb52e4de454a0a819c5273ca9496db9f011b4ecd17b9f1b212007
+  languageName: node
+  linkType: hard
+
+"@emotion/styled@npm:11.6.0":
+  version: 11.6.0
+  resolution: "@emotion/styled@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstyled%2F-%2Fstyled-11.6.0.tgz"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@emotion/babel-plugin": ^11.3.0
-    "@emotion/is-prop-valid": ^1.1.0
+    "@emotion/is-prop-valid": ^1.1.1
     "@emotion/serialize": ^1.0.2
     "@emotion/utils": ^1.0.0
   peerDependencies:
@@ -1082,7 +1112,7 @@ __metadata:
       optional: true
     "@types/react":
       optional: true
-  checksum: 5e5c1e89d2022696e44d2a44e352aba56ab0961d9c4a78eff5d1bfa3deae08487fb17641610446595471d74e956b791e619d3a9006c18e145ed849ef7062e1b5
+  checksum: 612bbf114a4ca49e5b3ec4554bea1cd5aad9eeb2371babc3e6b79eab5020bd0300b9904108b621837fe715e221ba09dd131dc29918c1fd966e082d8e74fca833
   languageName: node
   linkType: hard
 
@@ -1445,39 +1475,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"blog-1f01a5@workspace:features/blog":
-  version: 0.0.0-use.local
-  resolution: "blog-1f01a5@workspace:features/blog"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
-"brand-0fd703@workspace:core/molecule/brand":
-  version: 0.0.0-use.local
-  resolution: "brand-0fd703@workspace:core/molecule/brand"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
 "buffer-from@npm:~0.1.1":
   version: 0.1.2
   resolution: "buffer-from@npm:0.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbuffer-from%2F-%2Fbuffer-from-0.1.2.tgz"
   checksum: 50a1fa5da97d2081b7d945483c8967d3b89a096fa585eb55000bb2100e827c647c9370280ec9bd057da8f9fa5abc1d3b764228851a31fa8a67f659f70c0052d8
   languageName: node
   linkType: hard
-
-"button-77aca2@workspace:core/atom/button":
-  version: 0.0.0-use.local
-  resolution: "button-77aca2@workspace:core/atom/button"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "callsites@npm:^3.0.0":
   version: 3.1.0
@@ -1539,30 +1542,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"comming-soon-3c30f3@workspace:features/comming-soon":
-  version: 0.0.0-use.local
-  resolution: "comming-soon-3c30f3@workspace:features/comming-soon"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
 "compute-scroll-into-view@npm:1.0.14":
   version: 1.0.14
   resolution: "compute-scroll-into-view@npm:1.0.14::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcompute-scroll-into-view%2F-%2Fcompute-scroll-into-view-1.0.14.tgz"
   checksum: 863925bf8dcd82cfbcf5938cde6cb6d58fc07988d29841bb1db6140993dbd95cbc907ff03488fe06014634604a44f5ac0c21da7a3012e0c41fbeea237716dfdb
   languageName: node
   linkType: hard
-
-"contact-079e0f@workspace:features/contact":
-  version: 0.0.0-use.local
-  resolution: "contact-079e0f@workspace:features/contact"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "convert-source-map@npm:^1.5.0":
   version: 1.8.0
@@ -1701,15 +1686,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"footer-94c138@workspace:core/organism/footer":
-  version: 0.0.0-use.local
-  resolution: "footer-94c138@workspace:core/organism/footer"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
 "framer-motion@npm:5.3.0":
   version: 5.3.0
   resolution: "framer-motion@npm:5.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframer-motion%2F-%2Fframer-motion-5.3.0.tgz"
@@ -1815,15 +1791,6 @@ __metadata:
   checksum: 4e04078fd22cf274fc1fa430490af3feda1c3bc4dd2fc88880caf6c2e816992d508bc44a7b16721b713a6b98d880f43e10ea4b169529056134cd488403adc8fc
   languageName: node
   linkType: hard
-
-"icon-4ab69d@workspace:core/atom/icon":
-  version: 0.0.0-use.local
-  resolution: "icon-4ab69d@workspace:core/atom/icon"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "import-fresh@npm:^3.1.0":
   version: 3.3.0
@@ -1967,24 +1934,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"map-3f2abf@workspace:core/molecule/map":
-  version: 0.0.0-use.local
-  resolution: "map-3f2abf@workspace:core/molecule/map"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
-"menu-ee0026@workspace:core/molecule/menu":
-  version: 0.0.0-use.local
-  resolution: "menu-ee0026@workspace:core/molecule/menu"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
 "minimist@npm:~1.2.5":
   version: 1.2.5
   resolution: "minimist@npm:1.2.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fminimist%2F-%2Fminimist-1.2.5.tgz"
@@ -2001,15 +1950,6 @@ __metadata:
   checksum: 99cf8934714da7f9ce03e1f0a99621a41443217d80849c62e22b31b6ac356b9acd22f41e555fd7a759f1c7c9d3273e7abff2fb82dff8285f00a6a1022727e4ab
   languageName: node
   linkType: hard
-
-"navbar-c00506@workspace:core/organism/navbar":
-  version: 0.0.0-use.local
-  resolution: "navbar-c00506@workspace:core/organism/navbar"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
   version: 4.1.1
@@ -2071,15 +2011,6 @@ __metadata:
   checksum: 0e214895269bb3c9d2c5cbed2229d399cdea118f40cfd95f96b176439edf09d16becdef3dc3b820a6f53ab02a14e6047f04c89ee6991ddbd8b8194d7cfa59f0b
   languageName: node
   linkType: hard
-
-"portfolio-3c59d8@workspace:features/portfolio":
-  version: 0.0.0-use.local
-  resolution: "portfolio-3c59d8@workspace:features/portfolio"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "pretty-format@npm:^26.0.0, pretty-format@npm:^26.6.2":
   version: 26.6.2
@@ -2312,12 +2243,13 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/runtime": 7.12.18
+    "@chakra-ui/css-reset": 1.1.1
     "@chakra-ui/icons": 1.0.17
     "@chakra-ui/react": 1.6.12
     "@emotion/cache": 11.5.0
-    "@emotion/react": 11.5.0
+    "@emotion/react": 11.6.0
     "@emotion/server": 11.4.0
-    "@emotion/styled": 11.3.0
+    "@emotion/styled": 11.6.0
     "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.5.0
     "@types/jest": ^26.0.0
@@ -2352,9 +2284,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"selector-e99d83@workspace:core/molecule/selector":
+"selector-316a00@workspace:components/selector":
   version: 0.0.0-use.local
-  resolution: "selector-e99d83@workspace:core/molecule/selector"
+  resolution: "selector-316a00@workspace:components/selector"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -2443,15 +2375,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"title-8337a0@workspace:core/atom/title":
-  version: 0.0.0-use.local
-  resolution: "title-8337a0@workspace:core/atom/title"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fto-fast-properties%2F-%2Fto-fast-properties-2.0.0.tgz"
@@ -2479,6 +2402,15 @@ __metadata:
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
+
+"types-f74134@workspace:common/types":
+  version: 0.0.0-use.local
+  resolution: "types-f74134@workspace:common/types"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "use-callback-ref@npm:^1.2.1, use-callback-ref@npm:^1.2.3":
   version: 1.2.5
