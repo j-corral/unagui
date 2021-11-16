@@ -1,0 +1,22 @@
+---
+displayName: Wrapper
+description: 'Theme Wrapper component'
+labels: ['unagui', 'theme', 'wrapper']
+---
+
+import { Wrapper } from './wrapper';
+
+## React Component for rendering Chakra UI elements
+
+Basic Theme wrapper to render properly Chakra UI elements.
+Useful for testing and bit composition UI rendering.
+
+### Component usage
+
+```tsx
+import { Wrapper } from '@hoomies/unagui.theme.wrapper';
+
+<Wrapper resetCSS theme={theme}>
+  {children}
+</Wrapper>;
+```
