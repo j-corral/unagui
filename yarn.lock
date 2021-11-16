@@ -1137,6 +1137,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hoomies/fuel.types.map@npm:0.0.1":
+  version: 0.0.1
+  resolution: "@hoomies/fuel.types.map@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.types.map%2F-%2F%40hoomies-fuel.types.map-0.0.1.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 9063384c1744f05aa72d91f63c01013680671593fd0558d7417ec42af144df0b019915698325d03a611014ef9fb4fae5635b0813a2bc018eac889994e4a4fb31
+  languageName: node
+  linkType: hard
+
+"@hoomies/fuel.types.react@npm:0.0.1":
+  version: 0.0.1
+  resolution: "@hoomies/fuel.types.react@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.types.react%2F-%2F%40hoomies-fuel.types.react-0.0.1.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 3d9e01d167547bf56555b44515bf739034796d91b8e3c5bcd1ef5d560bd77ad7eb1f7326ad72ffc317540d0106c5dcb8efb1d6e8bcb2b234386f9d7bd1d8f7e7
+  languageName: node
+  linkType: hard
+
 "@jest/types@npm:^26.6.2":
   version: 26.6.2
   resolution: "@jest/types@npm:26.6.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ftypes%2F-%2Ftypes-26.6.2.tgz"
@@ -2250,6 +2274,8 @@ __metadata:
     "@emotion/react": 11.6.0
     "@emotion/server": 11.4.0
     "@emotion/styled": 11.6.0
+    "@hoomies/fuel.types.map": 0.0.1
+    "@hoomies/fuel.types.react": 0.0.1
     "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.5.0
     "@types/jest": ^26.0.0
@@ -2402,15 +2428,6 @@ __metadata:
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
-
-"types-f74134@workspace:common/types":
-  version: 0.0.0-use.local
-  resolution: "types-f74134@workspace:common/types"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "use-callback-ref@npm:^1.2.1, use-callback-ref@npm:^1.2.3":
   version: 1.2.5

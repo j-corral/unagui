@@ -1,18 +1,17 @@
 import React from 'react';
 import { HStack, Select, SelectProps, Tooltip } from '@chakra-ui/react';
 
+import { TStringMap } from '@hoomies/fuel.types.map';
+import { TReactElement, TReactElements } from '@hoomies/fuel.types.react';
+
 export type variantType = 'outline' | 'unstyled' | 'flushed' | 'filled';
-
-export type StringMap = Map<string, string>;
-
-export type ReactElements = Array<React.ReactElement>;
 
 export interface SelectorProps extends SelectProps {
   /**
    * @description Icon to display before the Selector
    * @type React.ReactElement
    */
-  leftIcon?: React.ReactElement;
+  leftIcon?: TReactElement;
   /**
    * @description Text to display on hover
    * @default "Make a choice"
@@ -30,7 +29,7 @@ export interface SelectorProps extends SelectProps {
   /**
    * @description Options to display in the Selector
    */
-  options: StringMap;
+  options: TStringMap;
   /**
    * @description Select variant style
    * @type variantType
@@ -40,11 +39,11 @@ export interface SelectorProps extends SelectProps {
 }
 
 /**
- * Render StringMap entries to React Elements
- * @param options: StringMap
- * @returns ReactElements
+ * Render TStringMap entries to React Elements
+ * @param options: TStringMap
+ * @returns TReactElements
  */
-function renderOptions(options: StringMap): ReactElements {
+function renderOptions(options: TStringMap): TReactElements {
   const rendered = [];
   options.forEach((label, key) =>
     rendered.push(
