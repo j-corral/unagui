@@ -1,0 +1,26 @@
+---
+displayName: Hero
+description: 'Generates a section with a big Title inside'
+labels: ['unagui', 'component', 'hero']
+---
+
+import { Hero } from './hero';
+import { Wrapper } from '@hoomies/unagui.theme.wrapper';
+
+### Component usage
+
+```tsx
+import { Hero } from '@hoomies/unagui.components.hero';
+
+<Hero title="Awesome Title" />;
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+
+```js live
+<Wrapper resetCSS>
+  <Hero title="Live text" height="300px" />
+</Wrapper>
+```
