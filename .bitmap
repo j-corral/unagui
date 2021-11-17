@@ -9,15 +9,21 @@
  */
 
 {
-    "components/selector": {
+    "components/hero": {
         "scope": "hoomies.unagui",
         "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "components/hero"
+    },
+    "components/selector": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/selector"
     },
     "theme/wrapper": {
         "scope": "hoomies.unagui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "theme/wrapper"
     },
