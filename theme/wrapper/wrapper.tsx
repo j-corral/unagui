@@ -29,8 +29,9 @@ export interface WrapperProps {
  * @returns React.ReactNode
  */
 export const Wrapper = (props: WrapperProps) => {
+  const { resetCSS = true } = props;
   return (
-    <ChakraProvider resetCSS={props.resetCSS} theme={props.theme}>
+    <ChakraProvider resetCSS={resetCSS} theme={props.theme}>
       {props.children}
     </ChakraProvider>
   );
