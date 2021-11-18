@@ -1,15 +1,9 @@
 import React from 'react';
 
-import { Flex, Heading, HStack } from '@chakra-ui/react';
-import { TReactElement } from '@hoomies/fuel.types.react';
+import { Box, Heading, HeadingProps } from '@chakra-ui/react';
+import { Section, SectionProps } from '@hoomies/unagui.components.section';
 
-export interface HeroProps {
-  /**
-   * @description Add children Elements inside the section
-   * @type TReactElement
-   * @default undefined
-   */
-  children?: TReactElement;
+export interface HeroProps extends HeadingProps, GradientProps {
   /**
    * @description Title to display
    * @type string
@@ -23,23 +17,29 @@ export interface HeroProps {
    */
   fontSize?: string;
   /**
-   * @description Height of the Hero Component
-   * @type string
-   * @default "100vh"
-   */
-  height?: string;
-  /**
-   * @description Horizontal alignment of the Title
-   * @type string
+   * @description Text alignment of Title
+   * @type HeadingProps["textAlign"]
    * @default "center"
    */
-  justifyContent?: 'left' | 'center' | 'right';
+  textAlign?: HeadingProps['textAlign'];
   /**
-   * @description Vertical alignment of the Title
-   * @type string
-   * @default "center"
+   * @description Padding around the Title
+   * @type HeadingProps['p']
+   * @default "5"
    */
-  verticalAlign?: 'flex-start' | 'center' | 'flex-end';
+  p?: HeadingProps['p'];
+  /**
+   * @description All the Section properties from the Section Component
+   * @type SectionProps
+   * @link https://bit.dev/hoomies/unagui/components/section
+   */
+  section?: SectionProps;
+}
+
+/**
+ * @description Gradient Properties
+ */
+export interface GradientProps {
   /**
    * @description Left gradient Color of the Title
    * @type string
@@ -52,36 +52,44 @@ export interface HeroProps {
    * @default "#FF0080"
    */
   colorEnd?: string;
-  /**
-   * @description Background color of the section
-   * @type string
-   * @default "white"
-   */
-  bgColor?: string;
+}
+
+export function GradientSet({ colorBegin = '', colorEnd = '' }: GradientProps) {
+  const gradient = `linear(to-l, ${colorEnd}, ${colorBegin})`;
+  return gradient;
 }
 
 export function Hero(props: HeroProps) {
   const {
     title = 'Hello World!',
     fontSize = '6vw',
-    height = '100vh',
-    justifyContent = 'center',
-    verticalAlign = 'center',
     colorBegin = '#7928CA',
     colorEnd = '#FF0080',
-    bgColor = 'white',
+    textAlign = 'center',
+    p = 5,
+    section = {
+      justify: textAlign,
+    },
+    ...rest
   } = props;
 
-  const gradient = `linear(to-l, ${colorEnd}, ${colorBegin})`;
-
   return (
-    <Flex flexDirection="column" justifyContent={verticalAlign} height={height} bgColor={bgColor}>
-      <HStack spacing="5vw" justify="center">
-        <Heading bgClip="text" bgGradient={gradient} fontSize={fontSize} display="block" textAlign={justifyContent}>
-          {title}
-        </Heading>
-        {props.children}
-      </HStack>
-    </Flex>
+    <Section {...section}>
+      {title && (
+        <Box>
+          <Heading
+            bgClip="text"
+            bgGradient={GradientSet({ colorBegin, colorEnd })}
+            fontSize={fontSize}
+            display="block"
+            p={p}
+            {...rest}
+          >
+            {title}
+          </Heading>
+        </Box>
+      )}
+      {props.children}
+    </Section>
   );
 }
