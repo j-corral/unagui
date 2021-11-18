@@ -15,6 +15,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/hero"
     },
+    "components/section": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/section"
+    },
     "components/selector": {
         "scope": "hoomies.unagui",
         "version": "0.0.3",
