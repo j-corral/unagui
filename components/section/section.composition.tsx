@@ -12,10 +12,10 @@ const Template = (args: SectionProps) => (
 
 export const Primary = () => <Template />;
 
-export const WithText = ({ text = 'Hello', ...rest }) => {
+export const WithText = ({ text = 'Hello', color = 'gray.500', ...rest }) => {
   return (
     <Template {...rest}>
-      <Heading>{text}</Heading>
+      <Heading color={color}>{text}</Heading>
     </Template>
   );
 };
