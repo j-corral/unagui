@@ -11,13 +11,19 @@
 {
     "components/hero": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "components/hero"
     },
+    "components/icon": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/icon"
+    },
     "components/section": {
         "scope": "hoomies.unagui",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/section"
     },
