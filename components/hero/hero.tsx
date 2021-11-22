@@ -67,14 +67,17 @@ export function Hero(props: HeroProps) {
     colorEnd = '#FF0080',
     textAlign = 'center',
     p = 5,
-    section = {
-      justify: textAlign,
-    },
+    section = {},
     ...rest
   } = props;
 
+  const sectionProps = {
+    justify: textAlign,
+    ...section,
+  };
+
   return (
-    <Section {...section}>
+    <Section {...sectionProps}>
       {title && (
         <Box>
           <Heading
