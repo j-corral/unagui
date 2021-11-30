@@ -11,7 +11,7 @@
 {
     "components/boxer": {
         "scope": "hoomies.unagui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/boxer"
     },
@@ -26,6 +26,12 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/credits"
+    },
+    "components/footer": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/footer"
     },
     "components/hero": {
         "scope": "hoomies.unagui",
