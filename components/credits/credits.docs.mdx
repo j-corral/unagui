@@ -1,0 +1,20 @@
+---
+displayName: 'Credits Component'
+description: 'Helper to display credits authors'
+labels: ['unagui', 'component', 'credits']
+---
+
+import { CreditList } from './index';
+
+## Credit List
+
+### Component usage
+
+```tsx
+import { CreditList } from '@hoomies/unagui.components.credits';
+const credits = [
+  { text: 'Powered By', name: 'My App', url: 'https://www.my.app' },
+  { text: 'Developer', name: 'John Doe', url: 'https://www.john-doe.com' },
+];
+<CreditList credits={credits} />;
+```
