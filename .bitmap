@@ -33,6 +33,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
+    "components/header": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/header"
+    },
     "components/hero": {
         "scope": "hoomies.unagui",
         "version": "0.0.7",
