@@ -1,0 +1,27 @@
+---
+displayName: 'Footer Component'
+description: 'Helper to create Footer component'
+labels: ['unagui', 'component', 'footer']
+---
+
+import { Footer } from './footer';
+
+### Component usage
+
+```tsx
+import { Footer } from '@hoomies/unagui.components.footer';
+const copyright = { author: 'Unagui', beginYear: 2021 };
+const credits = [
+  { text: 'Powered By', name: 'Unagui', url: 'https://www.my.app' },
+  { text: 'Developer', name: 'John Doe', url: 'https://www.john-doe.fr' },
+];
+<Footer copyright={copyright} credits={credits} />;
+```
+
+### More props
+
+The Footer component is extended from the [Boxer Component](https://bit.dev/hoomies/unagui/components/boxer).
+
+The Footer component uses the [Copyright Component](https://bit.dev/hoomies/unagui/components/copyright).
+
+The Footer component uses the [CreditList Component](https://bit.dev/hoomies/unagui/components/credits).
