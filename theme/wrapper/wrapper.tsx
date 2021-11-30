@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import { ChakraProvider, ChakraProviderProps } from '@chakra-ui/react';
+import { Dict } from '@chakra-ui/utils';
 
 /**
  * Properties available in ChakraWrapper
  */
-export interface WrapperProps {
+export interface WrapperProps extends ChakraProviderProps {
   /**
    * @description Child elements that will be wrapped by ChakraWrapper
    * @type React.ReactNode
@@ -19,7 +20,7 @@ export interface WrapperProps {
   /**
    * @description Theme options override (see Chakra UI doc)
    */
-  theme?: typeof extendTheme;
+  theme?: Dict;
 }
 
 /**
