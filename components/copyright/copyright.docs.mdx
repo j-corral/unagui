@@ -1,0 +1,22 @@
+---
+displayName: 'Copyright Component'
+description: 'Helper to display copyright'
+labels: ['unagui', 'component', 'copyright']
+---
+
+import { Copyright } from './copyright';
+
+### Component usage
+
+```tsx
+import { Copyright } from '@hoomies/unagui.components.copyright';
+<Copyright author="Hoomies" beginYear={2021} />;
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+
+```tsx live
+<Copyright author="Hoomies" beginYear={2021} extra=" - Some extra text" />
+```
