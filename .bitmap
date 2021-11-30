@@ -9,6 +9,12 @@
  */
 
 {
+    "components/boxer": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/boxer"
+    },
     "components/copyright": {
         "scope": "hoomies.unagui",
         "version": "0.0.1",
