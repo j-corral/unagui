@@ -50,7 +50,8 @@
         "@hoomies/fuel.types.react": "0.0.1",
         "@testing-library/react": "12.1.2",
         "@testing-library/user-event": "13.5.0",
-        "framer-motion": "5.3.0"
+        "framer-motion": "5.3.0",
+        "uuid": "8.3.2"
       },
       "peerDependencies": {
         "@emotion/react": "11.6.0",

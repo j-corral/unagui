@@ -1618,6 +1618,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"credits-806ae4@workspace:components/credits":
+  version: 0.0.0-use.local
+  resolution: "credits-806ae4@workspace:components/credits"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "css-box-model@npm:1.2.1":
   version: 1.2.1
   resolution: "css-box-model@npm:1.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-box-model%2F-%2Fcss-box-model-1.2.1.tgz"
@@ -1785,6 +1794,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hero-100aaa@workspace:components/hero":
+  version: 0.0.0-use.local
+  resolution: "hero-100aaa@workspace:components/hero"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "hey-listen@npm:^1.0.8":
   version: 1.0.8
   resolution: "hey-listen@npm:1.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhey-listen%2F-%2Fhey-listen-1.0.8.tgz"
@@ -1815,6 +1833,15 @@ __metadata:
   checksum: 4e04078fd22cf274fc1fa430490af3feda1c3bc4dd2fc88880caf6c2e816992d508bc44a7b16721b713a6b98d880f43e10ea4b169529056134cd488403adc8fc
   languageName: node
   linkType: hard
+
+"icon-71e21a@workspace:components/icon":
+  version: 0.0.0-use.local
+  resolution: "icon-71e21a@workspace:components/icon"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "import-fresh@npm:^3.1.0":
   version: 3.3.0
@@ -2270,6 +2297,7 @@ __metadata:
     "@chakra-ui/css-reset": 1.1.1
     "@chakra-ui/icons": 1.0.17
     "@chakra-ui/react": 1.6.12
+    "@chakra-ui/utils": 1.8.4
     "@emotion/cache": 11.5.0
     "@emotion/react": 11.6.0
     "@emotion/server": 11.4.0
@@ -2287,6 +2315,7 @@ __metadata:
     framer-motion: 5.3.0
     react: 17.0.2
     react-dom: 17.0.2
+    uuid: 8.3.2
   peerDependencies:
     react: 17.0.2
     react-dom: 17.0.2
@@ -2309,6 +2338,15 @@ __metadata:
   checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
+
+"section-426ef4@workspace:components/section":
+  version: 0.0.0-use.local
+  resolution: "section-426ef4@workspace:components/section"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "selector-316a00@workspace:components/selector":
   version: 0.0.0-use.local
@@ -2458,6 +2496,15 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Futil-deprecate%2F-%2Futil-deprecate-1.0.2.tgz"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"uuid@npm:8.3.2":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuuid%2F-%2Fuuid-8.3.2.tgz"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
   languageName: node
   linkType: hard
 
