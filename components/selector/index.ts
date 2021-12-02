@@ -1,2 +1,2 @@
 export { Selector } from './selector';
-export type { SelectorProps } from './selector';
+export type { SelectorProps, SelectorPublicProps } from './selector';

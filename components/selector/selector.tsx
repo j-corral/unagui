@@ -6,17 +6,26 @@ import { TReactElement, TReactElements } from '@hoomies/fuel.types.react';
 
 export type variantType = 'outline' | 'unstyled' | 'flushed' | 'filled';
 
-export interface SelectorProps extends SelectProps {
-  /**
-   * @description Icon to display before the Selector
-   * @type React.ReactElement
-   */
-  leftIcon?: TReactElement;
+export interface SelectorPublicProps extends SelectProps {
   /**
    * @description Text to display on hover
    * @default "Make a choice"
    */
   label?: string;
+  /**
+   * @description Select variant style
+   * @type variantType
+   * @default "unstyled"
+   */
+  variant?: variantType;
+}
+
+export interface SelectorProps extends SelectorPublicProps {
+  /**
+   * @description Icon to display before the Selector
+   * @type React.ReactElement
+   */
+  leftIcon?: TReactElement;
   /**
    * @description Function to handle select change
    * @type React.ChangeEventHandler<HTMLSelectElement>
@@ -30,12 +39,6 @@ export interface SelectorProps extends SelectProps {
    * @description Options to display in the Selector
    */
   options: TStringMap;
-  /**
-   * @description Select variant style
-   * @type variantType
-   * @default "unstyled"
-   */
-  variant?: variantType;
 }
 
 /**
