@@ -8,8 +8,8 @@ export interface BoxerProps extends BoxProps {
   dividerWidth?: BoxProps['w'];
   spacing?: number | string;
   justifyContent?: BoxProps['justifyContent'];
-  localeSwitcher?: React.ReactElement;
-  themeSwitcher?: React.ReactElement;
+  localeswitcher?: React.ReactElement;
+  themeswitcher?: React.ReactElement;
 }
 
 export function Boxer(props: BoxerProps) {
@@ -20,7 +20,7 @@ export function Boxer(props: BoxerProps) {
     dividerWidth = '70vw',
     divider = (
       <Center>
-        <Divider w={dividerWidth} borderBottom="1px" color="gray.500" orientation="horizontal" />
+        <Divider w={dividerWidth} borderBottom="1px" color="gray.400" orientation="horizontal" />
       </Center>
     ),
     dividerPosition = 'top',
@@ -34,8 +34,8 @@ export function Boxer(props: BoxerProps) {
       <Box minH={h} p={p} {...rest}>
         <HStack spacing={spacing} justifyContent={props.justifyContent}>
           {children}
-          {props.localeSwitcher && <Box>{props.localeSwitcher}</Box>}
-          {props.themeSwitcher && <Box>{props.themeSwitcher}</Box>}
+          {props.localeswitcher && <Box>{props.localeswitcher}</Box>}
+          {props.themeswitcher && <Box>{props.themeswitcher}</Box>}
         </HStack>
       </Box>
       {dividerPosition === 'bottom' && divider}

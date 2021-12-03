@@ -20,7 +20,7 @@ export const PrimaryHeader = () => (
         <a href="#">Contact</a>
       </span>
     }
-    localeSwitcher={<p>EN</p>}
-    themeSwitcher={<p>Light</p>}
+    localeswitcher={<p>EN</p>}
+    themeswitcher={<p>Light</p>}
   />
 );

@@ -41,7 +41,7 @@
       "dependencies": {
         "@chakra-ui/css-reset": "1.1.1",
         "@chakra-ui/icons": "1.0.17",
-        "@chakra-ui/react": "1.6.12",
+        "@chakra-ui/react": "1.7.2",
         "@emotion/cache": "11.5.0",
         "@emotion/react": "11.6.0",
         "@emotion/server": "11.4.0",
