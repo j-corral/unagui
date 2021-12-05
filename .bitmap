@@ -63,6 +63,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/selector"
     },
+    "components/switcher/theme": {
+        "scope": "hoomies.unagui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/switcher/theme"
+    },
     "theme/wrapper": {
         "scope": "hoomies.unagui",
         "version": "0.0.6",
