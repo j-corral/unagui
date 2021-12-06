@@ -11,67 +11,67 @@
 {
     "components/boxer": {
         "scope": "hoomies.unagui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/boxer"
     },
     "components/copyright": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/copyright"
     },
     "components/credits": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/credits"
     },
     "components/footer": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
     "components/header": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/header"
     },
     "components/hero": {
         "scope": "hoomies.unagui",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "components/hero"
     },
     "components/icon": {
         "scope": "hoomies.unagui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/icon"
     },
     "components/section": {
         "scope": "hoomies.unagui",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "components/section"
     },
     "components/selector": {
         "scope": "hoomies.unagui",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "components/selector"
     },
     "components/switcher/theme": {
         "scope": "hoomies.unagui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },
     "theme/wrapper": {
         "scope": "hoomies.unagui",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "theme/wrapper"
     },

@@ -39,27 +39,16 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@chakra-ui/css-reset": "1.1.1",
-        "@chakra-ui/icons": "1.0.17",
-        "@chakra-ui/react": "1.7.2",
-        "@emotion/cache": "11.5.0",
-        "@emotion/react": "11.6.0",
-        "@emotion/server": "11.4.0",
-        "@emotion/styled": "11.6.0",
-        "@hoomies/fuel.types.map": "0.0.1",
-        "@hoomies/fuel.types.react": "0.0.1",
-        "@testing-library/react": "12.1.2",
-        "@testing-library/user-event": "13.5.0",
-        "framer-motion": "5.3.0",
-        "uuid": "8.3.2"
+        "uuid": "^8.3.2"
       },
       "peerDependencies": {
-        "@emotion/react": "11.6.0",
-        "@emotion/styled": "11.6.0",
-        "framer-motion": "5.3.0",
         "react": "17.0.2",
         "react-dom": "17.0.2"
-      }
+      },
+      "devDependencies": {
+        "@testing-library/react": "12.1.2",
+        "@testing-library/user-event": "13.5.0",
+      },
     },
     "packageManagerArgs": [],
     "devFilePatterns": [
@@ -86,14 +75,40 @@
        **/
       "teambit.react/react": {}
     },
-    "core": {
-      "defaultScope": "hoomies.unagui"
+    "{components/**},{theme/**}": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@chakra-ui/css-reset": "1.1.1",
+            "@chakra-ui/react": "^1.7.2",
+            "framer-motion": "^5.3.3",
+            "@emotion/react": "^11.6",
+            "@emotion/styled": "^11.6",
+          }
+        }
+      }
     },
-    "features": {
-      "defaultScope": "hoomies.unagui"
+    "components/selector": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@hoomies/fuel.types.map": "0.0.1",
+            "@hoomies/fuel.types.react": "0.0.1",
+          }
+        }
+      }
     },
-    "theme": {
-      "defaultScope": "hoomies.unagui"
-    }
+    "components/icon,components/selector,components/switcher/theme": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@chakra-ui/icons": "1.0.17"
+          }
+        }
+      }
+    },
   }
 }

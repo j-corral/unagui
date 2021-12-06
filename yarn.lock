@@ -976,19 +976,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/cache@npm:11.5.0":
-  version: 11.5.0
-  resolution: "@emotion/cache@npm:11.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fcache%2F-%2Fcache-11.5.0.tgz"
-  dependencies:
-    "@emotion/memoize": ^0.7.4
-    "@emotion/sheet": ^1.0.3
-    "@emotion/utils": ^1.0.0
-    "@emotion/weak-memoize": ^0.2.5
-    stylis: ^4.0.10
-  checksum: 8b3fac281ea201d617b594d79e4b38903ee538e9aa2117f3f99a4f952b3f93d92659a569b3b934efa31ae450b2ddd9ae435b6c77db70aa99ac8cae4cbd71450b
-  languageName: node
-  linkType: hard
-
 "@emotion/cache@npm:^11.6.0":
   version: 11.6.0
   resolution: "@emotion/cache@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fcache%2F-%2Fcache-11.6.0.tgz"
@@ -1041,9 +1028,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:11.6.0":
-  version: 11.6.0
-  resolution: "@emotion/react@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.6.0.tgz"
+"@emotion/react@npm:^11.6.0":
+  version: 11.7.0
+  resolution: "@emotion/react@npm:11.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.7.0.tgz"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@emotion/cache": ^11.6.0
@@ -1060,7 +1047,7 @@ __metadata:
       optional: true
     "@types/react":
       optional: true
-  checksum: 4fb2d108dc32716d1f162026ac5fdbd0662e3b435a34fb324629d72bb6bff61b18ac8975b51457c16ffa41543bade5d07558566ab76420b3926fbb9159441232
+  checksum: 8b50d61caabe04ae413ae23b98c170da643754ec89f25eb001464095685686585d0f88988bc36432f231e6de6abdbee73308c42ba427de9eaaf5a54d7f2f6ae5
   languageName: node
   linkType: hard
 
@@ -1077,31 +1064,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/server@npm:11.4.0":
-  version: 11.4.0
-  resolution: "@emotion/server@npm:11.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fserver%2F-%2Fserver-11.4.0.tgz"
-  dependencies:
-    "@emotion/utils": ^1.0.0
-    html-tokenize: ^2.0.0
-    multipipe: ^1.0.2
-    through: ^2.3.8
-  peerDependencies:
-    "@emotion/css": ^11.0.0-rc.0
-  peerDependenciesMeta:
-    "@emotion/css":
-      optional: true
-  checksum: 41ed2472c3b16e5f28126fed755098d1cc2f189096fa830b98583558d93d153e5b0ced8bd1a7514803f1c29ad218a5cd75dc6a348efcd44167a4cdd11887b2f2
-  languageName: node
-  linkType: hard
-
-"@emotion/sheet@npm:^1.0.3, @emotion/sheet@npm:^1.1.0":
+"@emotion/sheet@npm:^1.1.0":
   version: 1.1.0
   resolution: "@emotion/sheet@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fsheet%2F-%2Fsheet-1.1.0.tgz"
   checksum: a4b74e16a8fea1157413efe4904f5f679d724323cb605d66d20a0b98744422f5d411fca927ceb52e4de454a0a819c5273ca9496db9f011b4ecd17b9f1b212007
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:11.6.0":
+"@emotion/styled@npm:^11.6.0":
   version: 11.6.0
   resolution: "@emotion/styled@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstyled%2F-%2Fstyled-11.6.0.tgz"
   dependencies:
@@ -1526,13 +1496,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"buffer-from@npm:~0.1.1":
-  version: 0.1.2
-  resolution: "buffer-from@npm:0.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbuffer-from%2F-%2Fbuffer-from-0.1.2.tgz"
-  checksum: 50a1fa5da97d2081b7d945483c8967d3b89a096fa585eb55000bb2100e827c647c9370280ec9bd057da8f9fa5abc1d3b764228851a31fa8a67f659f70c0052d8
-  languageName: node
-  linkType: hard
-
 "callsites@npm:^3.0.0":
   version: 3.1.0
   resolution: "callsites@npm:3.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcallsites%2F-%2Fcallsites-3.1.0.tgz"
@@ -1634,13 +1597,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-util-is@npm:~1.0.0":
-  version: 1.0.3
-  resolution: "core-util-is@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-util-is%2F-%2Fcore-util-is-1.0.3.tgz"
-  checksum: 9de8597363a8e9b9952491ebe18167e3b36e7707569eed0ebf14f8bba773611376466ae34575bca8cfe3c767890c859c74056084738f09d4e4a6f902b2ad7d99
-  languageName: node
-  linkType: hard
-
 "cosmiconfig@npm:^6.0.0":
   version: 6.0.0
   resolution: "cosmiconfig@npm:6.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcosmiconfig%2F-%2Fcosmiconfig-6.0.0.tgz"
@@ -1714,15 +1670,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"duplexer2@npm:^0.1.2":
-  version: 0.1.4
-  resolution: "duplexer2@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fduplexer2%2F-%2Fduplexer2-0.1.4.tgz"
-  dependencies:
-    readable-stream: ^2.0.2
-  checksum: 744961f03c7f54313f90555ac20284a3fb7bf22fdff6538f041a86c22499560eb6eac9d30ab5768054137cb40e6b18b40f621094e0261d7d8c35a37b7a5ad241
-  languageName: node
-  linkType: hard
-
 "error-ex@npm:^1.3.1":
   version: 1.3.2
   resolution: "error-ex@npm:1.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ferror-ex%2F-%2Ferror-ex-1.3.2.tgz"
@@ -1771,9 +1718,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"framer-motion@npm:5.3.0":
-  version: 5.3.0
-  resolution: "framer-motion@npm:5.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframer-motion%2F-%2Fframer-motion-5.3.0.tgz"
+"framer-motion@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "framer-motion@npm:5.3.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframer-motion%2F-%2Fframer-motion-5.3.3.tgz"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 6.0.1
@@ -1787,7 +1734,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 1ba539e21ab1bbb77b014b3a2d908ce67dde1467e34405b72f6cc1b9ab6e19b3b539953d5102aace1178acd4408d6c1caf299aeb7de035b12579bd2ad2562d0f
+  checksum: 95a112cf427bc2c087fc918b626c39a6bfc77842cf5beec133e96af08e67f6ad984f0a210a7e436d409a334f00cb27e570119106c71458d465b7c163cb0992a4
   languageName: node
   linkType: hard
 
@@ -1889,21 +1836,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-tokenize@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "html-tokenize@npm:2.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhtml-tokenize%2F-%2Fhtml-tokenize-2.0.1.tgz"
-  dependencies:
-    buffer-from: ~0.1.1
-    inherits: ~2.0.1
-    minimist: ~1.2.5
-    readable-stream: ~1.0.27-1
-    through2: ~0.4.1
-  bin:
-    html-tokenize: bin/cmd.js
-  checksum: 4e04078fd22cf274fc1fa430490af3feda1c3bc4dd2fc88880caf6c2e816992d508bc44a7b16721b713a6b98d880f43e10ea4b169529056134cd488403adc8fc
-  languageName: node
-  linkType: hard
-
 "icon-71e21a@workspace:components/icon":
   version: 0.0.0-use.local
   resolution: "icon-71e21a@workspace:components/icon"
@@ -1920,13 +1852,6 @@ __metadata:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: 2cacfad06e652b1edc50be650f7ec3be08c5e5a6f6d12d035c440a42a8cc028e60a5b99ca08a77ab4d6b1346da7d971915828f33cdab730d3d42f08242d09baa
-  languageName: node
-  linkType: hard
-
-"inherits@npm:~2.0.1, inherits@npm:~2.0.3":
-  version: 2.0.4
-  resolution: "inherits@npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.4.tgz"
-  checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
   languageName: node
   linkType: hard
 
@@ -1952,20 +1877,6 @@ __metadata:
   dependencies:
     has: ^1.0.3
   checksum: f8b52714891e1a6c6577fcb8d5e057bab064a7a30954aab6beb5092e311473eb8da57afd334de4981dc32409ffca998412efc3a2edceb9e397cef6098d21dd91
-  languageName: node
-  linkType: hard
-
-"isarray@npm:0.0.1":
-  version: 0.0.1
-  resolution: "isarray@npm:0.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fisarray%2F-%2Fisarray-0.0.1.tgz"
-  checksum: 49191f1425681df4a18c2f0f93db3adb85573bcdd6a4482539d98eac9e705d8961317b01175627e860516a2fc45f8f9302db26e5a380a97a520e272e2a40a8d4
-  languageName: node
-  linkType: hard
-
-"isarray@npm:~1.0.0":
-  version: 1.0.0
-  resolution: "isarray@npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fisarray%2F-%2Fisarray-1.0.0.tgz"
-  checksum: f032df8e02dce8ec565cf2eb605ea939bdccea528dbcf565cdf92bfa2da9110461159d86a537388ef1acef8815a330642d7885b29010e8f7eac967c9993b65ab
   languageName: node
   linkType: hard
 
@@ -2055,34 +1966,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:~1.2.5":
-  version: 1.2.5
-  resolution: "minimist@npm:1.2.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fminimist%2F-%2Fminimist-1.2.5.tgz"
-  checksum: 86706ce5b36c16bfc35c5fe3dbb01d5acdc9a22f2b6cc810b6680656a1d2c0e44a0159c9a3ba51fb072bb5c203e49e10b51dcd0eec39c481f4c42086719bae52
-  languageName: node
-  linkType: hard
-
-"multipipe@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "multipipe@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmultipipe%2F-%2Fmultipipe-1.0.2.tgz"
-  dependencies:
-    duplexer2: ^0.1.2
-    object-assign: ^4.1.0
-  checksum: 99cf8934714da7f9ce03e1f0a99621a41443217d80849c62e22b31b6ac356b9acd22f41e555fd7a759f1c7c9d3273e7abff2fb82dff8285f00a6a1022727e4ab
-  languageName: node
-  linkType: hard
-
-"object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
+"object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
-  languageName: node
-  linkType: hard
-
-"object-keys@npm:~0.4.0":
-  version: 0.4.0
-  resolution: "object-keys@npm:0.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fobject-keys%2F-%2Fobject-keys-0.4.0.tgz"
-  checksum: 1be3ebe9b48c0d5eda8e4a30657d887a748cb42435e0e2eaf49faf557bdd602cd2b7558b8ce90a4eb2b8592d16b875a1900bce859cbb0f35b21c67e11a45313c
   languageName: node
   linkType: hard
 
@@ -2154,13 +2041,6 @@ __metadata:
     ansi-styles: ^5.0.0
     react-is: ^17.0.1
   checksum: 2979eae85a4f7ba1c3946faa8f5c6497cc80dc64ba499ccd5fdada267f82dc664f315a4c1cdd4c0b4b97edbae399a7bf0a957cc1b87feb91cd95f1e436834fed
-  languageName: node
-  linkType: hard
-
-"process-nextick-args@npm:~2.0.0":
-  version: 2.0.1
-  resolution: "process-nextick-args@npm:2.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprocess-nextick-args%2F-%2Fprocess-nextick-args-2.0.1.tgz"
-  checksum: 1d38588e520dab7cea67cbbe2efdd86a10cc7a074c09657635e34f035277b59fbb57d09d8638346bf7090f8e8ebc070c96fa5fd183b777fff4f5edff5e9466cf
   languageName: node
   linkType: hard
 
@@ -2298,33 +2178,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^2.0.2":
-  version: 2.3.7
-  resolution: "readable-stream@npm:2.3.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freadable-stream%2F-%2Freadable-stream-2.3.7.tgz"
-  dependencies:
-    core-util-is: ~1.0.0
-    inherits: ~2.0.3
-    isarray: ~1.0.0
-    process-nextick-args: ~2.0.0
-    safe-buffer: ~5.1.1
-    string_decoder: ~1.1.1
-    util-deprecate: ~1.0.1
-  checksum: e4920cf7549a60f8aaf694d483a0e61b2a878b969d224f89b3bc788b8d920075132c4b55a7494ee944c7b6a9a0eada28a7f6220d80b0312ece70bbf08eeca755
-  languageName: node
-  linkType: hard
-
-"readable-stream@npm:~1.0.17, readable-stream@npm:~1.0.27-1":
-  version: 1.0.34
-  resolution: "readable-stream@npm:1.0.34::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freadable-stream%2F-%2Freadable-stream-1.0.34.tgz"
-  dependencies:
-    core-util-is: ~1.0.0
-    inherits: ~2.0.1
-    isarray: 0.0.1
-    string_decoder: ~0.10.x
-  checksum: 85042c537e4f067daa1448a7e257a201070bfec3dd2706abdbd8ebc7f3418eb4d3ed4b8e5af63e2544d69f88ab09c28d5da3c0b77dc76185fddd189a59863b60
-  languageName: node
-  linkType: hard
-
 "regenerator-runtime@npm:^0.13.4":
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fregenerator-runtime%2F-%2Fregenerator-runtime-0.13.9.tgz"
@@ -2368,10 +2221,8 @@ __metadata:
     "@chakra-ui/icons": 1.0.17
     "@chakra-ui/react": 1.7.2
     "@chakra-ui/utils": 1.9.1
-    "@emotion/cache": 11.5.0
-    "@emotion/react": 11.6.0
-    "@emotion/server": 11.4.0
-    "@emotion/styled": 11.6.0
+    "@emotion/react": ^11.6.0
+    "@emotion/styled": ^11.6.0
     "@hoomies/fuel.types.map": 0.0.1
     "@hoomies/fuel.types.react": 0.0.1
     "@testing-library/react": 12.1.2
@@ -2382,17 +2233,17 @@ __metadata:
     "@types/react-dom": ^17.0.5
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
-    framer-motion: 5.3.0
+    framer-motion: ^5.3.3
     react: 17.0.2
     react-dom: 17.0.2
-    uuid: 8.3.2
+    uuid: ^8.3.2
   peerDependencies:
     react: 17.0.2
     react-dom: 17.0.2
   languageName: unknown
   linkType: soft
 
-"safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
+"safe-buffer@npm:~5.1.1":
   version: 5.1.2
   resolution: "safe-buffer@npm:5.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsafe-buffer%2F-%2Fsafe-buffer-5.1.2.tgz"
   checksum: f2f1f7943ca44a594893a852894055cf619c1fbcb611237fc39e461ae751187e7baf4dc391a72125e0ac4fb2d8c5c0b3c71529622e6a58f46b960211e704903c
@@ -2434,22 +2285,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string_decoder@npm:~0.10.x":
-  version: 0.10.31
-  resolution: "string_decoder@npm:0.10.31::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstring_decoder%2F-%2Fstring_decoder-0.10.31.tgz"
-  checksum: fe00f8e303647e5db919948ccb5ce0da7dea209ab54702894dd0c664edd98e5d4df4b80d6fabf7b9e92b237359d21136c95bf068b2f7760b772ca974ba970202
-  languageName: node
-  linkType: hard
-
-"string_decoder@npm:~1.1.1":
-  version: 1.1.1
-  resolution: "string_decoder@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstring_decoder%2F-%2Fstring_decoder-1.1.1.tgz"
-  dependencies:
-    safe-buffer: ~5.1.0
-  checksum: 9ab7e56f9d60a28f2be697419917c50cac19f3e8e6c28ef26ed5f4852289fe0de5d6997d29becf59028556f2c62983790c1d9ba1e2a3cc401768ca12d5183a5b
-  languageName: node
-  linkType: hard
-
 "style-value-types@npm:5.0.0":
   version: 5.0.0
   resolution: "style-value-types@npm:5.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstyle-value-types%2F-%2Fstyle-value-types-5.0.0.tgz"
@@ -2485,22 +2320,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through2@npm:~0.4.1":
-  version: 0.4.2
-  resolution: "through2@npm:0.4.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fthrough2%2F-%2Fthrough2-0.4.2.tgz"
-  dependencies:
-    readable-stream: ~1.0.17
-    xtend: ~2.1.1
-  checksum: 50e41d272db4a74b10a62b7e92eeeb8d30e426a7a8a772cd85fac0f8e21d92c6e5cb5012d7db5f7a20f6e147e1f14f87062058c77b05bc9d463ae4d8b3eb1e42
-  languageName: node
-  linkType: hard
-
-"through@npm:^2.3.8":
-  version: 2.3.8
-  resolution: "through@npm:2.3.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fthrough%2F-%2Fthrough-2.3.8.tgz"
-  checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
-  languageName: node
-  linkType: hard
+"theme-e9493f@workspace:components/switcher/theme":
+  version: 0.0.0-use.local
+  resolution: "theme-e9493f@workspace:components/switcher/theme"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "tiny-invariant@npm:^1.0.6":
   version: 1.2.0
@@ -2562,14 +2389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"util-deprecate@npm:~1.0.1":
-  version: 1.0.2
-  resolution: "util-deprecate@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Futil-deprecate%2F-%2Futil-deprecate-1.0.2.tgz"
-  checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
-  languageName: node
-  linkType: hard
-
-"uuid@npm:8.3.2":
+"uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuuid%2F-%2Fuuid-8.3.2.tgz"
   bin:
@@ -2595,15 +2415,6 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
-
-"xtend@npm:~2.1.1":
-  version: 2.1.2
-  resolution: "xtend@npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fxtend%2F-%2Fxtend-2.1.2.tgz"
-  dependencies:
-    object-keys: ~0.4.0
-  checksum: a8b79f31502c163205984eaa2b196051cd2fab0882b49758e30f2f9018255bc6c462e32a090bf3385d1bda04755ad8cc0052a09e049b0038f49eb9b950d9c447
-  languageName: node
-  linkType: hard
 
 "yaml@npm:^1.7.2":
   version: 1.10.2
