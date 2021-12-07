@@ -64,7 +64,7 @@ export function Selector(props: SelectorProps) {
   return (
     <HStack spacing={2}>
       {leftIcon}
-      <Tooltip label={label}>
+      <Tooltip label={label} hasArrow placement="auto" aria-label="Dropdown to select an option">
         <Select onChange={(evt) => onChange(evt)} value={selected} variant={variant} {...props}>
           {renderOptions(options)}
         </Select>
