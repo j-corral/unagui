@@ -247,7 +247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/css-reset@npm:1.1.1":
+"@chakra-ui/css-reset@npm:1.1.1, @chakra-ui/css-reset@npm:^1.1.1":
   version: 1.1.1
   resolution: "@chakra-ui/css-reset@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Fcss-reset%2F-%2Fcss-reset-1.1.1.tgz"
   peerDependencies:
@@ -612,7 +612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/react@npm:1.7.2":
+"@chakra-ui/react@npm:>=1.7.2":
   version: 1.7.2
   resolution: "@chakra-ui/react@npm:1.7.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Freact%2F-%2Freact-1.7.2.tgz"
   dependencies:
@@ -1028,7 +1028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.6.0":
+"@emotion/react@npm:>=11.6":
   version: 11.7.0
   resolution: "@emotion/react@npm:11.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.7.0.tgz"
   dependencies:
@@ -1071,7 +1071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:^11.6.0":
+"@emotion/styled@npm:>=11.6":
   version: 11.6.0
   resolution: "@emotion/styled@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstyled%2F-%2Fstyled-11.6.0.tgz"
   dependencies:
@@ -1491,6 +1491,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "boxer-6382d5@workspace:components/boxer"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1585,6 +1586,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "copyright-9a4fe2@workspace:components/copyright"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1614,6 +1616,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "credits-806ae4@workspace:components/credits"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1718,23 +1721,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"framer-motion@npm:^5.3.3":
-  version: 5.3.3
-  resolution: "framer-motion@npm:5.3.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframer-motion%2F-%2Fframer-motion-5.3.3.tgz"
+"framer-motion@npm:>=5.3.3":
+  version: 5.4.2
+  resolution: "framer-motion@npm:5.4.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframer-motion%2F-%2Fframer-motion-5.4.2.tgz"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 6.0.1
     hey-listen: ^1.0.8
-    popmotion: 11.0.0
+    popmotion: 11.0.3
     style-value-types: 5.0.0
     tslib: ^2.1.0
   peerDependencies:
+    "@react-three/fiber": ^7.0.21
     react: ">=16.8 || ^17.0.0"
     react-dom: ">=16.8 || ^17.0.0"
+    three: ^0.135.0
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 95a112cf427bc2c087fc918b626c39a6bfc77842cf5beec133e96af08e67f6ad984f0a210a7e436d409a334f00cb27e570119106c71458d465b7c163cb0992a4
+  peerDependenciesMeta:
+    "@react-three/fiber":
+      optional: true
+    three:
+      optional: true
+  checksum: 083408f7f6defb913c83b3aa52ef480255d4a8d6da250c7748fe6b1eea2ee105d0cde735e3d2f280ece226462ce2425d4b4dea0c83b254a2e82a6cb83e2beb80
   languageName: node
   linkType: hard
 
@@ -1753,15 +1763,6 @@ __metadata:
   dependencies:
     tslib: ^2.1.0
   checksum: a23ebe8f7e20a32c0b99c2f8175b6f07af3ec6316aad52a2316316a6d011d717af8d2175dcc2827031c59fabb30232ed3e19a720a373caba7f070e1eae436325
-  languageName: node
-  linkType: hard
-
-"framesync@npm:^6.0.1":
-  version: 6.1.0
-  resolution: "framesync@npm:6.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fframesync%2F-%2Fframesync-6.1.0.tgz"
-  dependencies:
-    tslib: ^2.3.1
-  checksum: f3a933987a9235fd476b377b912c276aef474e07a93f682e6b6cec58a8301ae9ad860fbc712416a6812d39326ed18761aa58b4e9617024d2a08d86257b246f3c
   languageName: node
   linkType: hard
 
@@ -1806,6 +1807,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "header-fe3fc1@workspace:components/header"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1815,6 +1817,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hero-100aaa@workspace:components/hero"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1840,6 +1843,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "icon-71e21a@workspace:components/icon"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2008,15 +2012,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"popmotion@npm:11.0.0":
-  version: 11.0.0
-  resolution: "popmotion@npm:11.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpopmotion%2F-%2Fpopmotion-11.0.0.tgz"
+"popmotion@npm:11.0.3":
+  version: 11.0.3
+  resolution: "popmotion@npm:11.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpopmotion%2F-%2Fpopmotion-11.0.3.tgz"
   dependencies:
-    framesync: ^6.0.1
+    framesync: 6.0.1
     hey-listen: ^1.0.8
     style-value-types: 5.0.0
     tslib: ^2.1.0
-  checksum: 0e214895269bb3c9d2c5cbed2229d399cdea118f40cfd95f96b176439edf09d16becdef3dc3b820a6f53ab02a14e6047f04c89ee6991ddbd8b8194d7cfa59f0b
+  checksum: 9fe7d03b4ec0e85bfb9dadc23b745147bfe42e16f466ba06e6327197d0e38b72015afc2f918a8051dedc3680310417f346ffdc463be6518e2e92e98f48e30268
   languageName: node
   linkType: hard
 
@@ -2217,12 +2221,12 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/runtime": 7.12.18
-    "@chakra-ui/css-reset": 1.1.1
+    "@chakra-ui/css-reset": ^1.1.1
     "@chakra-ui/icons": 1.0.17
-    "@chakra-ui/react": 1.7.2
+    "@chakra-ui/react": ">=1.7.2"
     "@chakra-ui/utils": 1.9.1
-    "@emotion/react": ^11.6.0
-    "@emotion/styled": ^11.6.0
+    "@emotion/react": ">=11.6"
+    "@emotion/styled": ">=11.6"
     "@hoomies/fuel.types.map": 0.0.1
     "@hoomies/fuel.types.react": 0.0.1
     "@testing-library/react": 12.1.2
@@ -2233,11 +2237,15 @@ __metadata:
     "@types/react-dom": ^17.0.5
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
-    framer-motion: ^5.3.3
+    framer-motion: ">=5.3.3"
     react: ">=17"
     react-dom: ">=17"
     uuid: ^8.3
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    "@emotion/react": ">=11.6"
+    "@emotion/styled": ">=11.6"
+    framer-motion: ">=5.3.3"
     react: ">=17"
     react-dom: ">=17"
   languageName: unknown
@@ -2264,6 +2272,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "section-426ef4@workspace:components/section"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2273,6 +2282,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "selector-316a00@workspace:components/selector"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2324,6 +2334,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "theme-e9493f@workspace:components/switcher/theme"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2357,7 +2368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1":
+"tslib@npm:^2.0.3, tslib@npm:^2.1.0":
   version: 2.3.1
   resolution: "tslib@npm:2.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-2.3.1.tgz"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
@@ -2411,6 +2422,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "wrapper-d242f0@workspace:theme/wrapper"
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
