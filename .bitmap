@@ -11,7 +11,7 @@
 {
     "components/boxer": {
         "scope": "hoomies.unagui",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "components/boxer"
     },
@@ -23,19 +23,19 @@
     },
     "components/credits": {
         "scope": "hoomies.unagui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/credits"
     },
     "components/footer": {
         "scope": "hoomies.unagui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
     "components/header": {
         "scope": "hoomies.unagui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/header"
     },
@@ -65,7 +65,7 @@
     },
     "components/switcher/theme": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },

@@ -39,11 +39,11 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "uuid": "^8.3.2"
+        "uuid": "^8.3"
       },
       "peerDependencies": {
-        "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react": ">=17",
+        "react-dom": ">=17"
       },
       "devDependencies": {
         "@testing-library/react": "12.1.2",
@@ -94,8 +94,8 @@
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/fuel.types.map": "0.0.1",
-            "@hoomies/fuel.types.react": "0.0.1",
+            "@hoomies/fuel.types.map": "^0.0.1",
+            "@hoomies/fuel.types.react": "^0.0.1",
           }
         }
       }

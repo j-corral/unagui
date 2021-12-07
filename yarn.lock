@@ -2066,7 +2066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:17.0.2":
+"react-dom@npm:>=17":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
@@ -2168,7 +2168,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2":
+"react@npm:>=17":
   version: 17.0.2
   resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
@@ -2234,12 +2234,12 @@ __metadata:
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
     framer-motion: ^5.3.3
-    react: 17.0.2
-    react-dom: 17.0.2
-    uuid: ^8.3.2
+    react: ">=17"
+    react-dom: ">=17"
+    uuid: ^8.3
   peerDependencies:
-    react: 17.0.2
-    react-dom: 17.0.2
+    react: ">=17"
+    react-dom: ">=17"
   languageName: unknown
   linkType: soft
 
@@ -2389,7 +2389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.2":
+"uuid@npm:^8.3":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuuid%2F-%2Fuuid-8.3.2.tgz"
   bin:
