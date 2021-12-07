@@ -59,13 +59,13 @@
     },
     "components/selector": {
         "scope": "hoomies.unagui",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "components/selector"
     },
     "components/switcher/theme": {
         "scope": "hoomies.unagui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },
