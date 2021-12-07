@@ -21,7 +21,7 @@ export function ThemeSwitcher({
   return (
     <Button onClick={toggleColorMode} variant={variant}>
       {isDark ? (
-        <Tooltip label={labelLight}>
+        <Tooltip label={labelLight} hasArrow placement="auto" aria-label="Button to switch theme mode">
           <SunIcon color={colorScheme} />
         </Tooltip>
       ) : (
