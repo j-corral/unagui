@@ -35,6 +35,18 @@ export interface BoxerProps extends BoxProps {
    * @description Add custom Elements to the container
    */
   children?: React.ReactNode;
+  /**
+   * @description Set Header with position fixed
+   */
+  isFixed?: boolean;
+  /**
+   * @description Set Header position top or bottom
+   */
+  fixedOn?: 'top' | 'bottom';
+  /**
+   * @description Set Header background color
+   */
+  bgColor?: BoxProps['bgColor'];
 }
 
 export function Boxer({
@@ -52,10 +64,19 @@ export function Boxer({
   ),
   dividerPosition = 'top',
   children = null,
+  isFixed = false,
+  fixedOn = 'top',
+  bgColor = 'transparent',
   ...rest
 }: BoxerProps) {
   return (
-    <>
+    <Box
+      m={0}
+      p={0}
+      {...(isFixed ? { position: 'fixed', w: '100vw' } : {})}
+      {...(fixedOn === 'bottom' ? { bottom: '0' } : {})}
+      bgColor={bgColor}
+    >
       {dividerPosition === 'top' && divider}
       <Box minH={h} p={p} {...rest}>
         <HStack spacing={spacing} justifyContent={justifyContent}>
@@ -63,6 +84,6 @@ export function Boxer({
         </HStack>
       </Box>
       {dividerPosition === 'bottom' && divider}
-    </>
+    </Box>
   );
 }
