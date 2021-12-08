@@ -12,7 +12,7 @@ export interface SectionProps extends FlexProps {
   /**
    * @description Width of the Section
    * @type FlexProps['width'];
-   * @default "100vw"
+   * * @default "auto"
    */
   width?: FlexProps['width'];
   /**
@@ -47,18 +47,17 @@ export interface SectionProps extends FlexProps {
   bgColor?: string;
 }
 
-export function Section(props: SectionProps) {
-  const {
-    height = '100vh',
-    width = '100vw',
-    direction = 'row',
-    wrap = 'wrap',
-    justify = 'center',
-    align = 'center',
-    bgColor = 'white',
-    ...rest
-  } = props;
-
+export function Section({
+  height = '100vh',
+  width = 'auto',
+  direction = 'row',
+  wrap = 'wrap',
+  justify = 'center',
+  align = 'center',
+  bgColor = 'transparent',
+  children = null,
+  ...rest
+}: SectionProps) {
   return (
     <Flex
       height={height}
@@ -70,7 +69,7 @@ export function Section(props: SectionProps) {
       bgColor={bgColor}
       {...rest}
     >
-      {props.children}
+      {children}
     </Flex>
   );
 }

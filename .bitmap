@@ -41,7 +41,7 @@
     },
     "components/hero": {
         "scope": "hoomies.unagui",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "mainFile": "index.ts",
         "rootDir": "components/hero"
     },
@@ -53,7 +53,7 @@
     },
     "components/section": {
         "scope": "hoomies.unagui",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "components/section"
     },

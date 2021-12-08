@@ -59,18 +59,17 @@ export function GradientSet({ colorBegin = '', colorEnd = '' }: GradientProps) {
   return gradient;
 }
 
-export function Hero(props: HeroProps) {
-  const {
-    title = 'Hello World!',
-    fontSize = '6vw',
-    colorBegin = '#7928CA',
-    colorEnd = '#FF0080',
-    textAlign = 'center',
-    p = 5,
-    section = {},
-    ...rest
-  } = props;
-
+export function Hero({
+  title = 'Hello World!',
+  fontSize = '6vw',
+  colorBegin = '#7928CA',
+  colorEnd = '#FF0080',
+  textAlign = 'center',
+  p = 5,
+  section = {},
+  children = null,
+  ...rest
+}: HeroProps) {
   const sectionProps = {
     justify: textAlign,
     ...section,
@@ -92,7 +91,7 @@ export function Hero(props: HeroProps) {
           </Heading>
         </Box>
       )}
-      {props.children}
+      {children}
     </Section>
   );
 }
