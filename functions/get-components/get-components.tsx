@@ -18,7 +18,7 @@ export type GetComponentsProps = {
 export function GetComponents({ names = [], withMDX = true }: GetComponentsProps) {
   const filteredUnaguiComponents = FilterObjectProp({ keys: names, item: UnaguiComponents });
 
-  let selectedComponents: TDObject = { ...(withMDX ? GetMDXComponents() : {}), ...filteredUnaguiComponents };
+  const selectedComponents: TDObject = { ...(withMDX ? GetMDXComponents() : {}), ...filteredUnaguiComponents };
 
   return selectedComponents;
 }

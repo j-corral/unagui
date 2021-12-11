@@ -14,9 +14,9 @@ Return an object containing Selected components
 ```js
 import { GetComponents } from '@hoomies/unagui.functions.get-components';
 
-const UnaguiComponents = GetComponents({ names: ['Unagui.Hero', 'Unagui.Section'] });
-// result = { h1: [Function: h1], p: [Function: p], ...,'Unagui.Hero': Function, 'Unagui.Section': Function}
+const UnaguiComponents = GetComponents({ names: ['UnaguiHero', 'UnaguiSection'] });
+// result = { h1: [Function: h1], p: [Function: p], ...,'UnaguiHero': Function, 'UnaguiSection': Function}
 
-const UnaguiComponentsOnly = GetComponents({ names: ['Unagui.Hero', 'Unagui.Section'], withMDX: false });
-// result = { 'Unagui.Hero': Function, 'Unagui.Section': Function}
+const UnaguiComponentsOnly = GetComponents({ names: ['UnaguiHero', 'UnaguiSection'], withMDX: false });
+// result = { 'UnaguiHero': Function, 'UnaguiSection': Function}
 ```
