@@ -71,7 +71,7 @@
     },
     "functions/get-components": {
         "scope": "hoomies.unagui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "functions/get-components"
     },
