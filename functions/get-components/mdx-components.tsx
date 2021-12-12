@@ -1,6 +1,21 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Box, Alert, Code, Heading, Link, Text, Divider, useColorMode, Skeleton } from '@chakra-ui/react';
+import {
+  Box,
+  Alert,
+  Code,
+  Heading,
+  Link,
+  Text,
+  Divider,
+  useColorMode,
+  Table,
+  Thead,
+  Tbody,
+  Tr,
+  Th,
+  Td,
+} from '@chakra-ui/react';
 
 import { TDObject } from '@hoomies/fuel.types.object';
 
@@ -113,12 +128,20 @@ export const MDXComponents: TDObject = {
   h5: (props) => <DocsHeading as="h5" size="sm" fontWeight="bold" {...props} />,
   h6: (props) => <DocsHeading as="h6" size="xs" fontWeight="bold" {...props} />,
   inlineCode: (props) => <Code colorScheme="yellow" fontSize="0.84em" {...props} />,
-  br: (props) => <Box height="24px" {...props} />,
+  br: ({ reset, ...props }) => <Box as={reset ? 'br' : undefined} height={reset ? undefined : '24px'} {...props} />,
   hr: Hr,
   a: CustomLink,
   p: (props) => <Text as="p" mt={0} lineHeight="tall" {...props} />,
+  strong: (props) => <Text as="strong" {...props} />,
+  em: (props) => <Text as="em" {...props} />,
   ul: (props) => <Box as="ul" pt={2} pl={4} ml={2} {...props} />,
   ol: (props) => <Box as="ol" pt={2} pl={4} ml={2} {...props} />,
   li: (props) => <Box as="li" pb={1} {...props} />,
   blockquote: Quote,
+  table: (props) => <Table variant="simple" {...props} />,
+  tbody: (props) => <Tbody {...props} />,
+  thead: (props) => <Thead {...props} />,
+  td: (props) => <Td {...props} />,
+  th: (props) => <Th {...props} />,
+  tr: (props) => <Tr {...props} />,
 };
